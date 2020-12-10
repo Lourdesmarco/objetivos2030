@@ -1,0 +1,117 @@
+*{ margin: 0%; padding: 0%;
+}
+.caja{
+    height: 50vh;
+    background-image: url(../assets/cabecera.jpg);
+    text-align: center;
+}
+.titulo{
+    background-color: rgb(96, 185, 96);
+}
+body{
+    font-family: Helvetica;
+    background-color: white;
+}
+h1{
+    margin-left: 140px;
+    color: white;
+    font-family: Helvetica;
+    font-size: 55px;
+    font-style: normal;
+}
+h2{
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-bottom: 30px;
+    color: black;
+    font-family: Helvetica;
+    font-size: 25pt;
+    font-style: normal;
+}
+h3{
+    color: black;
+    font-family: Helvetica;
+    font-size: 15pt;
+    font-style: normal;
+}
+p{
+    color: black;
+    font-family: Helvetica;
+    font-size: 10pt;
+    font-style: normal;
+}
+section .bloque section{
+    margin-left: 100px;
+    margin-top: 30px;
+    columns: 3 200px;
+    column-gap: 2rem;
+    padding: 40px;
+}
+img{
+    width: 100%;
+}
+article{
+    background-color:  rgba(208, 250, 218, 0.877);
+    margin-bottom: 20px;
+    padding: 15px;
+    display: inline-block;
+    width: 75%;
+}
+button{
+    background-color: rgb(96, 185, 96);
+    width: 260px;
+    height: 80px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+a{
+    color: white;
+    font-family: Helvetica;
+    font-size: 20pt;
+}
+.columns{
+    column-count: 1;
+    margin: 500px;
+}
+.side{
+    display: flex;
+    margin-right: 90px;
+    font-size: 12pt;
+}
+.bloque{
+    width: 83%;
+}
+ul{
+    margin-left: 30px;
+}
+button:active, button:focus, button:hover{
+    background-color: green;
+}
+a:active, a:focus, a:hover{
+    color: black;
+}
+a:link{
+    text-decoration: none;
+}
+.container{
+    margin-left: 100px;
+    background-color: rgb(194, 247, 194);
+    width: 300px;
+}
+.objetivo{
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.metas{
+    margin-top: 30px;
+    margin-bottom: 10px;  
+}
+.datos{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.masinformacion{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

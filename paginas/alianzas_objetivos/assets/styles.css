@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif
+}
+
+#box0 {
+  grid-area: b0;
+  text-align: center;
+  background-color: blanchedalmond;
+  padding: 20px;
+}
+#box1 {
+  grid-area: b1;
+  padding: 50px;
+  padding-right: 80px;
+  background-color: burlywood;
+  text-align: justify;
+  font-size: 16pt;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#box2 {
+  grid-area: b2;
+  background-color: rgb(208, 188, 163);
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;
+}
+
+#box3 {
+  grid-area: b3;
+  background-color: rosybrown;
+  padding: 20px;
+}
+
+#box4 {
+  grid-area: b4;
+  background-color: rosybrown;
+ padding: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "b0 b0 b0 b0"
+    "b1 b1 b2 b2"
+    "b1 b1 b3 b4";
+  grid-gap: 20px;
+}
+
+.nav {
+  text-align: center;
+  background-color: rgb(148, 122, 88);
+  padding: 10px;
+  margin: 20px;
+  display: block;
+}
+img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 16pt;
+  height: 100%;
+  width: 100%;
+}
+
+#box5 {
+  grid-area: b1;
+  background-color: burlywood;
+  text-align: justify;
+  font-size: 16pt;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.aimsmenu {
+  height: 100px;
+  text-align: center;
+  padding-top: 40px;}
+
+  .container2 { display: grid;
+    grid-template-areas:
+      "b0 b0 b0"
+      "b1 b2 b3"
+      "b4 b5 b6";
+    grid-gap: 20px;
+  }
+
+#box20
+ {grid-area: b2;
+  padding: 50px;
+  padding-right: 80px;
+  background-color: burlywood;
+  text-align: justify;
+  font-size: 16pt;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+#box30
+{  grid-area: b3;
+  background-color: rgb(208, 188, 163);
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;}
+
+#box50 
+{
+  grid-area: b5;
+  background-color: rosybrown;
+  padding: 20px;
+}
+#box6 {
+  grid-area: b6;
+  background-color: rosybrown;
+  padding: 20px;
+}
+.nav:hover a {color: floralwhite;
+}
+

@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(assets/images/filip-zrnzevic-QsWG0kjPQRY-unsplash.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    background-color: #edffeb;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    background-color: green;
+    color: white;
+    background-image: url("assets/images/Header_RADARCANVAS_ProgresoODS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    
+}
+.banner h1{
+    font-size: 60px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+.banner h2{
+    font-size: 32px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+button {
+    margin-left: 20px;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: green;
+    color: honeydew;
+    margin-left: 20px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.page-body{
+    display: flex;
+}
+.page-content{
+
+    margin: 20px;
+}
+.menuvertical{
+    
+    font-weight: bold;
+    margin: 20px;
+    
+
+}
+.titulomenu {
+    background-color: #349925;
+    font-size: 28pt;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+}
+.menuvertical a{
+    text-decoration: none;
+    color: white;
+    font-size: 20pt;
+    display: block;
+    padding: 12px 20px 12px 20px;
+    min-width: 250px;
+    
+}
+.menuvertical a:hover {
+    background-color: #349925;
+}
+
+.menuvertical a.active {
+    background-color: #308d24;
+
+}
+.menuselect {
+    background-color: #28741c;
+}
+
+.menusnormal {
+    background-color: #66c957;
+}
+
+
+.content-header{
+    font-size: 16pt;
+    margin: 10px 0 10px 0;
+}
+.content-text{
+    display: flex;
+
+}
+
+.content-image{
+    width: 600px;
+    height: auto;
+    margin: 20px;
+    object-fit: contain;
+    align-self: flex-start;
+}
+.content-text p {
+    flex:1;   
+    text-align: justify;
+    margin: 20px 0 20px 0;
+}
+
+
+.header-img img{
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+   
+    
+}
+
+
+.titulo-texto{
+    flex: 1;
+}
+.article-image{
+   flex:1; 
+   object-fit: contain;
+   width: auto;
+   height: auto;
+   margin: 20px;
+   align-self: flex-start;
+
+}
+.article-image img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.spacer{
+    flex:1;
+    margin: 20px;
+    
+}
+.content-datos{
+    display: flex;
+    margin: 20px;
+    
+}
+.content-datos .titulo-texto{
+    flex:7;   
+    text-align: justify;
+    margin: 20px;
+}
+.datos-image{
+    flex:5; 
+   object-fit: contain;
+   width: auto;
+   height: auto;
+   margin: 20px;
+   align-self: center;
+    
+}
+.datos-image img{
+    width: 100%;
+    height: auto;
+}
+.datos-bosques{
+    background-color: rgba(255, 255, 61, 0.466);
+    
+}
+.datos-bio{
+    background-color: rgba(135, 250, 3, 0.507);
+}
+.datos-desert{
+    background-color: rgba(222, 184, 135, 0.575);
+}
+li{
+    margin-left:20px ;
+    margin-bottom: 20px;
+}
+.article-vertical{
+    flex:2;
+}
+.flex{
+    display: flex;
+}
+.article-vertical .titulo-texto{
+       
+    text-align: justify;
+    margin: 20px;
+}
+.cita{
+    
+    background-color:rgba(128, 128, 128, 0.507);
+    margin: 40px;
+    padding: 20px;
+    border-radius: 15px;
+    font-style: italic;
+    font-weight: bold;
+
+
+}
+.covid2 img{
+    align-self: center;
+    margin-top: 20px;
+}
+.covid{
+   
+}

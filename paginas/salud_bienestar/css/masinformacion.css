@@ -1,0 +1,131 @@
+*{ margin: 0%; padding: 0%;
+}
+.caja{
+    height: 50vh;
+    background-image: url(../assets/cabecera.jpg);
+    text-align: center;
+}
+.titulo{
+    background-color: rgb(96, 185, 96);
+    
+
+}
+body{
+    font-family: Helvetica;
+    background-color: white;
+}
+h1{
+    margin-left: 140px;
+    color: white;
+    font-family: Helvetica;
+    font-size: 55px;
+    font-style: normal;
+}
+h2{
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-bottom: 30px;
+    color: black;
+    font-family: Helvetica;
+    font-size: 25pt;
+    font-style: normal;
+}
+h3{
+    margin-top: 30px;
+    margin-left: 140px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: Helvetica;
+    font-size: 17pt;
+    font-style: normal;
+    display: block;
+    background-color: rgb(96, 185, 96);
+}
+p{
+    margin-left: 140px;
+    color: black;
+    font-family: Helvetica;
+    font-size: 15pt;
+    font-style: normal;
+}
+
+img{
+    margin-left: 140px;
+    margin-top: 10px;
+    width: 60%;
+}
+button{
+    background-color: rgb(96, 185, 96);
+    width: 260px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+a{
+    color: white;
+    font-family: Helvetica;
+    font-size: 20pt;
+}
+.columns{
+    column-count: 1;
+    margin: 500px;
+}
+
+.datos{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 80px;
+}
+.objetivo{
+    margin-top: 30px;
+    margin-bottom: 10px;;
+    height: 80px;
+}
+.metas{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 80px;
+}
+.masinformacion{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 80px;
+}
+.otrosobjetivos{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    height: 80px;
+}
+.side{
+    display: flex;
+    margin-right: 90px;
+    font-size: 12pt;
+
+}
+.bloque{
+    width: 200%;
+}
+ul{
+    margin-left: 30px;
+}
+button:active, button:focus, button:hover{
+    background-color: green;
+}
+a:active, a:focus, a:hover{
+    color: black;
+}
+a:link{
+    text-decoration: none;
+}
+.bloque ul{
+    margin-top: 20px;
+    margin-left: 170px;
+    margin-bottom: 50px;
+    color: black;
+    font-family: Helvetica;
+    font-size: 13pt;
+    font-style: normal;
+}
+.container{
+    margin-left: 70px;
+    background-color: rgb(194, 247, 194);
+}

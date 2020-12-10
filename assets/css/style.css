@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+:root {
+    --objective1: #E02B40;
+    --objective2: #D19F2A;
+    --objective3: #269B48;
+    --objective4: #C31F33;
+    --objective5: #EF402B;
+    --objective6: #00ADD9;
+    --objective7: #FDB713;
+    --objective8: #8F1838;
+    --objective9: #F36C24;
+    --objective10: #E11484;
+    --objective11: #F99D25;
+    --objective12: #CF8D2A;
+    --objective13: #48763E;
+    --objective14: #007DBC;
+    --objective15: #3EAF49;
+    --objective16: #02558B;
+    --objective17: #173667;
+    
+    --white: #ffffff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{    
+    font-family: Yanone Kaffeesatz;
+    height: 100%;
+}
+a{ text-decoration: none; }
+
+.gridCont{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 100%;
+}
+
+.item{
+    padding: 2rem;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    transition: all ease 0.5s;
+    -webkit-box-shadow: -1px -3px 20px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: -1px -3px 20px 0px rgba(0,0,0,0.5);
+    box-shadow: -1px -3px 20px 0px rgba(0,0,0,0.5);
+}
+
+.item:hover{
+    margin: 10px;
+}
+.item h2{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.item img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+
+    display: block;
+    /*filter: grayscale(100%);*/
+}
+
+/* cnter logo element */
+.special{
+    background-color:var(--white);
+}
+/* primera fila */
+
+.a{
+    background-color: var(--objective1);
+}
+.b{
+    background-color: var(--objective2);
+}
+.c{
+    background-color: var(--objective3);
+}
+.d{
+    background-color: var(--objective4);
+}
+.e{
+    background-color: var(--objective5);
+}
+.f{
+    background-color: var(--objective6);
+}
+/* segunda fila */
+.g{
+    background-color: var(--objective7);
+}
+.h{
+    background-color: var(--objective8);
+}
+.i{
+    background-color: var(--objective9);
+}
+.j{
+    background-color: var(--objective10);
+}
+.k{
+    background-color: var(--objective11);
+}
+.l{
+    background-color: var(--objective12);
+}
+.m{
+    background-color: var(--objective13);
+}
+.n{
+    background-color: var(--objective14);
+}
+.o{
+    background-color: var(--objective15);
+}
+.p{
+    background-color: var(--objective16);
+}
+.q{
+    background-color: var(--objective17);
+}

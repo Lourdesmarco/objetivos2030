@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    scroll-behavior: smooth;
+}
+.cabecera {
+    height: 100vh;
+    background-image: linear-gradient(120deg, rgba(246, 212, 101, 0.705) 0%, rgba(253, 159, 133, 0.733) 100%),url(assets/industria1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-style: bold;
+}
+a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: #3f3f3f;
+}
+a:active,
+a:focus,
+a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+.titulo {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 48pt;
+    color: white;
+}
+.subtitulohead {
+    font-size: 50%;
+}
+.subtitulo {
+    height: 100%;
+    text-align: center;
+    color: rgb(109, 16, 0);
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.contenedor-covid {
+    background-image: linear-gradient(to top, rgba(207, 217, 223, 0.671) 0%, rgba(226, 235, 240, 0.685) 100%), url("assets/covid2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.contenedor-intro {
+    background-image: linear-gradient(to top, rgba(248, 178, 87, 0.671) 0%, rgba(255, 117, 82, 0.685) 100%), url("assets/Infraestructura2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.contenedor-descripcion {
+    background-image: linear-gradient(to top, rgba(248, 178, 87, 0.671) 0%, rgba(255, 117, 82, 0.685) 100%), url("assets/infrastructure2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.contenedor-descripcion,
+.contenedor-intro {
+    color: white;
+    font-size: 15pt;
+}
+.contenedor-covid {
+    color: black;
+    font-size: 12pt;
+}
+.contenedor-datos,
+.contenedor-metas {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.671) 0%, rgba(129, 129, 129, 0.685) 100%), url("assets/infrastructure.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.contenedor-metas{
+    padding-top: 80px;
+}
+.contenedor-datos ul {
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 20px;
+
+}
+.contenedor-metas nav ul {
+    text-align: center;
+    font-size: 15pt;
+    padding-bottom: 40px;
+}
+footer ul {
+    background: orange;
+    padding: 40px;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+}
+p {
+    margin-bottom: 40px;
+}
+.caja {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(252, 118, 78);
+    font-size: 18pt;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.item {
+    margin: 10px;
+}
+.side {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.side img {
+    width: 40%;
+}
+.side p,
+.side ul li {
+    width: 40%;
+}
+.column {
+    column-count: 2;
+}
+.contenedor-datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-datos img {
+    width: 50%;
+}
+/* Paginas siguientes*/
+.cabecera1 {
+    height: 100vh;
+    background-image: linear-gradient(120deg, rgba(246, 212, 101, 0.705) 0%, rgba(253, 159, 133, 0.733) 100%),url(assets/Infraestructura.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+    columns: 2;
+}
+.navig ul{
+    background-color: rgb(252, 118, 78);
+    padding: 20px;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+}
+.contenedor-no{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+.cabecera2 {
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(248, 178, 87, 0.671) 0%, rgba(255, 117, 82, 0.685) 100%), url("assets/INDUSTRIA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+}
+.cabecera3 {
+    height: 100vh;
+    background-image: linear-gradient(120deg, rgba(246, 212, 101, 0.705) 0%, rgba(253, 159, 133, 0.733) 100%), url(assets/pymes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+}
+.cabecera4 {
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(248, 178, 87, 0.671) 0%, rgba(255, 117, 82, 0.685) 100%), url("assets/Energía-limpia-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+}
+.cabecera5 {
+    height: 100vh;
+    background-image: linear-gradient(120deg, rgba(246, 212, 101, 0.705) 0%, rgba(253, 159, 133, 0.733) 100%), url(assets/Science.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+}
+.cabeceraA {
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(248, 178, 87, 0.671) 0%, rgba(255, 117, 82, 0.685) 100%), url("assets/infraestructura-sostenible.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+}
+.cabeceraB {
+    height: 100vh;
+    background-image: linear-gradient(120deg, rgba(246, 212, 101, 0.705) 0%, rgba(253, 159, 133, 0.733) 100%), url(assets/tecnologias-naturaleza_0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+}
+.cabeceraC {
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(248, 178, 87, 0.671) 0%, rgba(255, 117, 82, 0.685) 100%), url("assets/internet_freepik.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+}
