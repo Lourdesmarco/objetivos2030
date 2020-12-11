@@ -254,3 +254,20 @@ p {
     background-position: center;
     text-align: center;
 }
+
+.logoObjetivos{
+    width: 100%;   
+}
+.linkLogoObjetivos{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    padding: 1.3em;
+    justify-content: center;
+    background-color: white;
+}

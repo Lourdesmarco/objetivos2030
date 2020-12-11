@@ -762,3 +762,21 @@
   según el tamaño de la pantalla.
   
   he trabajado con una pantalla de 27w y con una de 14**/
+
+
+.logoObjetivos{
+    width: 100%;   
+}
+.linkLogoObjetivos{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;
+    background-color: white;
+}

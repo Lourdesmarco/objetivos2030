@@ -7,18 +7,16 @@
 }
 body,html{
     font-family:Helvetica, Arial, sans-serif;
+    height: 100%;
 }
 
 .gridCont{
     width: 100%;
     display: grid;
-    grid-template-columns: 100px 100px 100px  100px 100px 100px  100px 100px 100px 100px 100px  100px 100px 100px  100px 100px 100px  100px 100px 100px 100px  100px 100px 100px  100px 100px 100px 100px 100px  100px 100px 100px  100px 100px 100px  100px 100px 100px 100px 100px 100px 100px  100px 100px 100px  100px 100px 100px 100px 100px  100px 100px 100px  100px 100px 100px  100px 100px 100px 100px  100px 100px 100px  100px 100px 100px 100px 100px  100px 100px 100px  100px 100px 100px  100px 100px 100px 100px 100px 100px 100px  100px 100px 100px  100px 100px 100px 100px 100px  100px 100px 100px  100px 100px 100px  100px 100px 100px 100px  100px 100px 100px  100px 100px 100px 100px 100px  100px 100px 100px  100px 100px 100px  100px 100px 100px 100px 100px 100px 100px  100px 100px 100px  100px 100px 100px 100px 100px  100px 100px 100px  100px 100px 100px  100px 100px 100px 100px  100px 100px 100px  100px 100px 100px 100px 100px  100px 100px 100px  100px 100px 100px  100px 100px 100px 100px  ;
-    grid-template-rows:  100px 100px 100px  100px 100px 100px  100px 100px 100px 100px  100px 100px 100px  100px 100px 100px  100px 100px 100px 100px  100px 100px 100px  100px 100px 100px  100px 100px 100px 100px  100px 100px 100px  100px 100px 100px  100px 100px 100px 100px  100px 100px 100px  100px 100px 100px  100px 100px 100px 100px  100px 100px 100px  100px 100px 100px  100px 100px 100px 100px  100px 100px 100px  100px 100px 100px  100px 100px 100px 100px  100px 100px 100px  100px 100px 100px  100px 100px 100px 100px ;
-    height: 100%;}
-
-
-
-
+    grid-template-columns: repeat(14, 100px);
+    grid-template-rows:  repeat(14, 100px);
+    height: 100%;
+}
 
 /* COMÚN */
 .header-image

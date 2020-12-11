@@ -1,5 +1,9 @@
-*{ margin: 0%; padding: 0%;
+*{ 
+    box-sizing: border-box;
+    margin: 0%; 
+    padding: 0%;
 }
+
 .caja{
     height: 50vh;
     background-image: url(../assets/cabecera.jpg);
@@ -10,6 +14,26 @@
     
 
 }
+
+.logoObjetivos{
+    width: 100%;
+    
+    
+}
+.linkLogoObjetivos{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0.8em;
+    justify-content: center;
+    background-color: white;
+}
+
 body{
     font-family: Helvetica;
     background-color: white;

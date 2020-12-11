@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 
 :root {
@@ -43,23 +42,52 @@ a{ text-decoration: none; }
     height: 100%;
 }
 
+@media screen and (max-width: 1200px){
+    .gridCont{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .item{
+        min-height: 250px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .gridCont{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+    }
+    .item{
+        min-height: 250px;
+    }
+}
+
+.gridCont a:hover{
+    z-index: 2;
+}
 .item{
     padding: 2rem;
     color: var(--white);
     display: flex;
     align-items: center;
-    transition: all ease 0.5s;
+    min-width: calc(100% / 6);
+    width: 100%;
+    transition: all 0.3s ease-out;
     -webkit-box-shadow: -1px -3px 20px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: -1px -3px 20px 0px rgba(0,0,0,0.5);
     box-shadow: -1px -3px 20px 0px rgba(0,0,0,0.5);
+    height: 100%;
 }
 
-.item:hover{
-    margin: 10px;
+.item:hover:not(.special){
+    width: calc(100% + 20px);        
+    cursor: pointer;
+    transition: all 0.3s ease-out;
 }
 .item h2{
     font-size: 2em;
     text-transform: uppercase;
+    max-width: 160px;
 }
 .item img{
     object-fit: contain;
