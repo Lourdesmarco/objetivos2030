@@ -1,0 +1,325 @@
+*{margin:0;padding:0; box-sizing: border-box;}
+
+@font-face{
+    font-family: Vulf Sans Demo;
+ src: url(assets/VulfSansDemo-Regular.woff);
+ src: url(assets/VulfSansDemo-Bold_1.woff);
+ src: url(assets/VulfSansDemo-Medium.woff);
+}
+
+body{position: relative;}
+.uno{background-color: #FBE4E4;}
+.dos{background-color:#FDFFC7;}
+.tres{background-color:#FAE8C2 ;}
+.cuatro{background-color:#DBF3F6 ;}
+.cinco{background-color:#E0FAE4 ;}
+.seis{background-color: #E5E4E4;}
+
+
+.br{height: 20px;}
+a{text-decoration: none; color: black;}
+.logo{ height: 50px; width: auto; margin-top:20px; margin-left: 143px; }
+.logo2{ height: 50px; width: auto; margin-top:20px;  }
+
+
+h1{
+position: absolute;
+width: 942px;
+height: 86px;
+top: 159px;
+left: 207px;
+font-family: Vulf Sans Demo;
+font-style: normal;
+font-size: 124px;
+line-height: 120%;
+color: #000000;
+text-align: center;
+}
+
+/*Menú*/
+
+#menu { 
+background-color: black; 
+height: 50px; 
+width: 450px; 
+display: flex;  
+justify-content: space-around; 
+position: absolute; 
+left: 801px; 
+margin-top: 20px; 
+}
+
+#menu li { 
+display: inline; 
+list-style: none; 
+flex-wrap: nowrap;
+}
+
+#menu li a { 
+font-family: vulf sans Demo; 
+float: left; 
+margin: 12px 0 0 ; 
+color: white;
+text-decoration: none;
+}
+#menu li a:hover { 
+color: #FEFFE4;		
+}
+
+
+#menu2 { 
+background-color: black; 
+height: 50px; 
+width: 450px; 
+display: flex;  
+justify-content: space-around; 
+position: absolute; 
+left: 801px; 
+margin-top: 20px; 
+}
+    
+#menu2 li { 
+display: inline; 
+list-style: none; 
+flex-wrap: nowrap;
+}
+    
+#menu2 li a { 
+font-family: vulf sans Demo; 
+float: left; 
+margin: 12px 0 0 ; 
+color: white;
+text-decoration: none;
+}
+#menu2 li a:hover { 
+color: #FEFFE4;		
+}
+
+.menu2 > ul ul{
+	display: none;
+    position: absolute;
+    top: 45px;
+    background-color: black;
+    padding: 13px;
+    left: 356px;
+    width: 94px;
+}
+ .menu2 > ul li:hover ul {
+	display: block;
+}
+
+
+.int{ position: absolute;
+    width: 1108px;
+    height: 492px;
+    left: 143px;
+    top: 559px;
+    font-family: Vulf Sans Demo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: justify;
+    color: #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.int2{    
+    position: absolute;
+    width: 500px;
+    left: 143px;
+    top: 320px;
+    font-family: Vulf Sans Demo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: justify;
+    color: #000000;
+}
+
+.int3{
+    position: absolute;
+    width: 1108px;
+    left: 143px;
+    top: 816px;
+    font-family: Vulf Sans Demo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: justify;
+    color: #000000;
+    
+}
+
+.int4{position: absolute; width: 1108px; left: 143px; top: 865px; font-family: Vulf Sans Demo; font-style: normal; font-weight: normal; font-size: 22px;line-height: 120%;text-align: justify;color: #000000;
+}
+
+.int5{position: absolute; width: 1108px; left: 143px; top: 995px; font-family: Vulf Sans Demo; font-style: normal; font-weight: normal; font-size: 22px;line-height: 120%;text-align: justify;color: #000000;
+}
+
+.int6{position: absolute; width: 1108px; left: 143px; top: 1100px; font-family: Vulf Sans Demo; font-style: normal; font-weight: normal; font-size: 22px;line-height: 120%;text-align: justify;color: #000000;
+}
+
+
+.a{display: block;
+    width: 100%;
+}
+
+.r1{ 
+position: absolute;
+width: 369px;
+height: 369px;
+left: 144px;
+top: 1079px;
+border: 2px solid #000000;
+box-sizing: border-box;
+}
+
+.r2{
+position: absolute;
+width: 369px;
+height: 369px;
+left: 511px;
+top: 1079px;
+border: 2px solid #000000;
+box-sizing: border-box;
+}
+
+.r3{
+position: absolute;
+width: 369px;
+height: 369px;
+left: 878px;
+top: 1079px;
+border: 2px solid #000000;
+box-sizing: border-box;
+}
+
+.r4{
+position: absolute;
+width: 369px;
+height: 369px;
+left: 144px;
+top: 1446px;
+border: 2px solid #000000;
+box-sizing: border-box;
+}
+
+.r5{
+position: absolute;
+width: 369px;
+height: 369px;
+left: 511px;
+top: 1446px;
+border: 2px solid #000000;
+box-sizing: border-box;
+}
+
+.r6{
+position: absolute;
+width: 369px;
+height: 369px;
+left: 878px;
+top: 1446px;
+
+border: 2px solid #000000;
+box-sizing: border-box;
+}
+
+.r7{ 
+position: absolute;
+width: 1107px;
+height: 50px;
+left: 144px;
+top: 1815px;
+background: #E5E4E4;
+border: 2px solid #000000;
+box-sizing: border-box;
+opacity: 0%;
+}
+
+.r1:hover{background: #FBE4E4;}
+.r2:hover{background: #FDFFC7;}
+.r3:hover{background: #FAE8C2;}
+.r4:hover{background: #DBF3F6;}
+.r5:hover{background: #E0FAE4;}
+.r6:hover{background: #E5E4E4;}
+
+#ar{ 
+position: absolute; 
+text-decoration: none; 
+color: black;
+font-family: Vulf Sans Demo;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 120%;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.ar2{ 
+    position: absolute; 
+    text-decoration: none; 
+    color: black;
+    font-family: Vulf Sans Demo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    }
+
+
+    .tit2{
+    position: absolute;
+    width: 942px;
+    height: 86px;
+    top: 159px;
+    left: 207px;
+    font-family: Vulf Sans Demo;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 120%;
+    color: #000000;
+    text-align: center
+    }
+
+.img2{
+    width: 550px;
+    height: auto;
+    position: absolute;
+    top: 376px;
+    left: 706px;
+   
+    
+}
+
+.img3{ width: 550px;
+    height: auto;
+    position: absolute;
+    top: 354px;
+    left: 706px;
+}
+     .a2{text-align: center;}
+
+
+    .col{ 
+        position: static; 
+        width: auto; 
+        margin: 0 40px 30px 0; 
+        align-items: center;
+        font-size: .9em; 
+    }
+    .col{ padding: 20px;}
+    .col.last {margin-right: 0; }
+    .col:hover{ 
+        display: block; 
+        background-color:white;
+    }
