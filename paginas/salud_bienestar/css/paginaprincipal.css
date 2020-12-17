@@ -15,25 +15,6 @@
 
 }
 
-.logoObjetivos{
-    width: 100%;
-    
-    
-}
-.linkLogoObjetivos{
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    padding: 0.8em;
-    justify-content: center;
-    background-color: white;
-}
-
 body{
     font-family: Helvetica;
     background-color: white;
