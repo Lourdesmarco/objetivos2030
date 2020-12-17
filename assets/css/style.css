@@ -69,7 +69,8 @@ a{ text-decoration: none; }
     padding: 2rem;
     color: var(--white);
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;    
     min-width: calc(100% / 6);
     width: 100%;
     transition: all 0.3s ease-out;
