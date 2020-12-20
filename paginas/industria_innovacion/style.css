@@ -58,13 +58,16 @@ a:hover {
     font-size: 40px;
 }
 .contenedor-covid {
+    padding-top: 20px;
     background-image: linear-gradient(to top, rgba(207, 217, 223, 0.671) 0%, rgba(226, 235, 240, 0.685) 100%), url("assets/covid2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    margin-top: 20px;
 }
 .contenedor-intro {
+    padding-top: 20px;
     background-image: linear-gradient(to top, rgba(248, 178, 87, 0.671) 0%, rgba(255, 117, 82, 0.685) 100%), url("assets/Infraestructura2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,6 +75,7 @@ a:hover {
     background-position: center;
 }
 .contenedor-descripcion {
+    padding-top: 20px;
     background-image: linear-gradient(to top, rgba(248, 178, 87, 0.671) 0%, rgba(255, 117, 82, 0.685) 100%), url("assets/infrastructure2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,6 +89,10 @@ a:hover {
 }
 .contenedor-covid {
     color: black;
+    font-size: 12pt;
+}
+.contenedor-datos{
+    padding-top: 20px;
     font-size: 12pt;
 }
 .contenedor-datos,
@@ -104,11 +112,17 @@ a:hover {
     flex-wrap: wrap;
     text-align: left;
     padding: 20px;
+    background-color: rgb(85, 85, 85, .5);
+    border: none;
+    border-radius: 10px;
 
 }
 .contenedor-metas nav ul {
-    text-align: center;
+    list-style: none;
+    text-align: left;
     font-size: 15pt;
+    padding-left: 300px;
+    padding-right: 100px;
     padding-bottom: 40px;
 }
 footer ul {
@@ -119,9 +133,16 @@ footer ul {
     justify-content: space-between;
 }
 p {
+    background-color: rgb(85, 85, 85, .5);
+    padding: 10px;
     margin-bottom: 40px;
+    border: none;
+    border-radius: 10px;
 }
 .caja {
+    border: none;
+    border-radius: 40px 0px 40px 40px;
+    list-style: none;
     position: fixed;
     top: 0;
     right: 0;
@@ -130,6 +151,11 @@ p {
     padding: 10px;
     display: flex;
     justify-content: space-between;
+}
+.lista {
+    list-style: none;
+    margin-left: 10em;
+    margin-right: 10em;
 }
 .item {
     margin: 10px;
@@ -170,12 +196,18 @@ p {
     text-align: center;
 }
 .contenedor{
+    margin-top: 20px;
     width: 90%;
     max-width: 1200px;
     overflow: hidden;
     margin: auto;
     padding: 60px 0;
     columns: 2;
+}
+.contenedor-no img{
+    margin: auto;
+    display: block;
+    width: 60%;
 }
 .navig ul{
     background-color: rgb(252, 118, 78);
@@ -211,7 +243,7 @@ p {
 }
 .cabecera4 {
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(248, 178, 87, 0.671) 0%, rgba(255, 117, 82, 0.685) 100%), url("assets/Energía-limpia-2.jpg");
+    background-image: linear-gradient(to top, rgba(248, 178, 87, 0.671) 0%, rgba(255, 117, 82, 0.685) 100%), url("assets/Energ¡a-limpia-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
