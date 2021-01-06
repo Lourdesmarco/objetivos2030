@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     border:0;
-    outline:0;
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
@@ -13,14 +12,13 @@ html, body{
 
 header{
     background-color: #e02f35;
-    height: 120px;
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
     top: 300px;
     font-size: 30px;
     text-align: center;
-    position: fixed;
+    position: relative;
 }
 header h1{
     font-size: 75px;
@@ -32,31 +30,27 @@ header h1{
 .titulo2{
     background-color: #caebf2;
     color:#505050;
-    height: 100px;
-    padding: 20px 40px 0px 40px;
+    padding: 40px;
     font-size: 30px;
     text-align: center;
     margin: 300px;
     margin-top: 0px;
-    position: absolute;
-    top: 420px; 
+    top: 285px; 
     display: inline-block;
-    position: fixed;
+    position: relative;
 }
+
 .boton a{
-    background-color: #36bad8fd;
+    background-color:#36bad8fd;
     color:black;
     border-radius: 50px 50px 4px;
     padding: 30px;
     display: inline-block;
     text-decoration: none;
-    align-content: center;
     position: fixed;
-    left: 650px;
-    top: 560px;
+    left: 36%;
     font-size: 30px;
 }
-
 .boton:hover a{
     background-color:#289ab3;
     color:  rgb(238, 238, 238);
@@ -80,7 +74,6 @@ a{
     padding: 15px;
     display: inline-block;
     text-decoration: none;
-    align-content: center;
     position: fixed;
     left: -20px;
     top: 20px;

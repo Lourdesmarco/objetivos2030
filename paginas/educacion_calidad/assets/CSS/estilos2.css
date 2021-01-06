@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     border:0;
-    outline:0;
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
@@ -30,9 +29,9 @@ h1{
 }
 /*MENÚ SUPERIOR*/
 .menu{
-    background-color: rgb(246, 246, 246);
+    background-color: #fff;
     box-shadow: 0px 2px 7px black;
-    height: 60px;
+    height: 100%;
     width: 100%;
     display: flex;
     position: relative;
@@ -44,20 +43,28 @@ h1{
     z-index:1;
 }
 .option{
-    padding: 10px;
+    padding: 15px 0px;
     list-style: none;
-    background-color:  rgb(246, 246, 246);
+    background-color:#fff;
+    border-radius: 15px;
     margin: 10px;
 }
 .option a{
-    color: #ab2a3e;
     text-decoration: none;
+    color: #e02f35;
+    padding: 15px 15px;
+}
+.option:hover{
+    background-color: #cc2d33c7;
 }
 .option:hover a{
-    color:#3f0b13;
+    color:#ffffff;
 }
-.option, .botonportada a{
-    color:#363636;
+.menuseleccion{
+    background-color: rgb(255, 221, 221);
+}
+.menuseleccion a{
+    color:#690a0a;
 }
 /*IMAGEN Y TÍTULO*/
 .imagensuperior{
@@ -93,13 +100,12 @@ h1{
     position: relative;
     display:grid;    
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 400px 500px 520px;
     grid-gap: 30px;
     grid-template-areas: 
     "p1 p1 f1"
     "p2 p2 f2"
     "f3 p3 p3";
-    margin: 0px 85px 30px 85px;
+    margin: 30px 85px 30px 85px;
     z-index:0;
 }
 
@@ -107,7 +113,6 @@ h1{
     font-size: 20px;
     text-align: left;
     padding: 50px;
-    margin: 20px;
     border-radius: 10px;
 }
 
@@ -181,27 +186,25 @@ div article p{
     height: 100%;
     position: relative;
     display:grid;    
-    grid-template-columns: 500px 490px 500px;
-    grid-template-rows: 580px 250px 260px 380px 600px 300px 360px;
+    grid-template-columns: repeat(3,1fr);
     grid-gap: 30px;
     z-index:0;
     margin-bottom: 30px;
-    margin: 65px;
+    margin: 30px 85px 30px 85px;
     grid-template-areas: 
     "fd1 pd1 pd1 "
     "fd2 pd1 pd1 "
     "fd2 pd2 pd2 "
     "pd3 pd3 pd3"
-    "fd4 pd4 pd4 "
-    "fd5 fd5 fd5"
+    "fd3 pd4 pd4"
+    "fd4 fd4 fd4"
     "pd5 pd5 pd5";
 }
-.fotod1, .fotod2, .fotod4, .fotod5{
+.fotod1, .fotod2, .fotod3, .fotod4{
     width: 450px;
     height: 100%;
     object-fit: cover;
     border-radius: 30px;
-    margin-left: 30px;
 }
 .parrafodesc1, .parrafodesc2, .parrafodesc3, .parrafodesc4, .parrafodesc5{
     font-size: 20px;
@@ -209,7 +212,6 @@ div article p{
     padding: 50px;
     padding-top: 20px;
     border-radius: 10px;
-    margin: 20px;
 }
 .parrafodesc1{
     background-color:#90e0f1;
@@ -233,26 +235,28 @@ div article p{
 }
 .fotod1{
     grid-area: fd1;
-    margin-top: 40px;
+    margin-top: 20px;
+    height: 510px;
 }
 .fotod2{
     grid-area: fd2;
-    margin-top: 40px;
+    margin-top: 20px;
+    height: 510px;
+}
+.fotod3{
+    grid-area: fd3;
+    margin-top: 20px;
     height: 510px;
 }
 .fotod4{
     grid-area: fd4;
-}
-.fotod5{
-    grid-area: fd5;
-    margin-left: 105px;
     height: 300px;
-    width: 1330px;
+    width: 100%;
 }
 .br1 {
     display: block;
     content: "";
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 /*METAS*/
@@ -386,35 +390,29 @@ ul.numeracion.nacional{
     color: rgb(1, 1, 8);
     background-color: rgb(192, 192, 252);
     height: 100%;
-    width: 70%;
-    margin:30px 0px 30px 190px;
+    margin: 30px 185px;
     border-radius: 20px;
     padding: 40px;
     font-size: 20px;
     line-height: calc(1ex / 0.32);
     text-align: center;
     columns: 2 100px;
-    padding: 50px;
 }
 .estiloenlaces{
     text-decoration: none;
-    color: rgb(16, 0, 161);
+    color: rgb(103, 151, 255);
     font-size: 15px;
 }
 .textoconenlaces{
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-bottom: 40px;
-    padding-top: 50px;
+    padding: 40px;
 }
 
 .elementocolumna{
     background-color: rgb(255, 255, 255);
     margin: 10px;
-    padding: 10px;
     display: inline-block;
     border-radius: 10px;
-    width: 500px;
+    width: 100%;
 }
 .estiloenlaces:visited
-{ color: rgb(103, 151, 255);}
+{ color: rgb(16, 0, 161);}
