@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.portada {
+
+    height: 100vh;
+    background-image: linear-gradient(120deg, rgba(70, 230, 110, 0.705) 0%, rgba(119, 147, 223, 0.733) 100%),url(multimedia/renovables.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.titulo1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 48pt;
+color: aliceblue;
+}
+.menu{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(127, 210, 243);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 20pt;
+    border: none;
+    border-radius: 0px 0px 40px 40px;
+
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(46, 114, 49);
+}
+a:active, a:focus, a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.menu ul .menuitem{
+    list-style: none;
+}
+.portada1{
+        height: 100vh;
+        background-image: linear-gradient(120deg, rgba(70, 230, 110, 0.705) 0%, rgba(119, 147, 223, 0.733) 100%),url(multimedia/mano_uwu.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+}
+.portada2{
+    height: 100vh;
+    background-image: linear-gradient(120deg, rgba(70, 230, 110, 0.705) 0%, rgba(119, 147, 223, 0.733) 100%),url(multimedia/molinos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.portada3{
+    height: 100vh;
+    background-image: linear-gradient(120deg, rgba(70, 230, 110, 0.705) 0%, rgba(119, 147, 223, 0.733) 100%),url(multimedia/datos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.fondo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse farthest-corner at 45px 45px,#ffffff8f,#80d9e98f,#5f73e7be,#6875e8c2,#92c571c9,#83e25e8f );
+    background-size: 500% 500%;
+    animation: Gradient 10s ease infinite;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: Fondo;
+}
+@keyframes Fondo{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container p{
+    width: 40%;
+    margin-right: 100px;
+}
+.container img{
+    width: 50%;
+}
+.seccion{
+    padding: 100px 20px 100px 100px;
+    font-size: 16pt;
+}
+iframe{
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+p{
+    margin-bottom: 40px;
+}
+img:hover{
+    transform: scale(1.2);
+}
